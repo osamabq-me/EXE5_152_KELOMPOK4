@@ -28,6 +28,16 @@ namespace EXE5_152_KELOMPOK4
             Node newnode = new Node();
             Console.WriteLine("\nEnter data:");
             data = Console.ReadLine();
+            newnode.val = data;
+            newnode.next = null;
+            if (OSAMAH == null)
+            {
+                OSAMAH = newnode;
+                AL_Mekhlafi = newnode;
+                return;
+            }
+            AL_Mekhlafi.next = newnode;
+            AL_Mekhlafi = newnode;
         }
     }
     class Program
