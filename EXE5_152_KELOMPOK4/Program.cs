@@ -68,7 +68,9 @@ namespace EXE5_152_KELOMPOK4
     {
         static void Main(string[] args)
         {
-        
+            queue Q = new queue();
+
+
         }
     }
 }
