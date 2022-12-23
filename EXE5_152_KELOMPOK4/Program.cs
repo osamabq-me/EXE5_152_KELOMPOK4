@@ -81,7 +81,26 @@ namespace EXE5_152_KELOMPOK4
                     Console.WriteLine("4. Exit");
                     Console.Write("\nEnter your choice: ");
                     ch = Convert.ToChar(Console.ReadLine());
-
+                    Console.WriteLine();
+                    switch (ch)
+                    {
+                        case '1':
+                            Q.Enter();
+                            break;
+                        case '2':
+                            Q.delete();
+                            break;
+                        case '3':
+                            Q.display();
+                            break;
+                        case '4':
+                            Console.WriteLine("\nThanks for using my program");
+                            Thread.Sleep(2000);
+                            return;
+                        default:
+                            Console.WriteLine("Invalid Option");
+                            break;
+                    }
                 }
                 catch (Exception e)
                 {
