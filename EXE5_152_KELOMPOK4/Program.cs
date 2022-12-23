@@ -14,7 +14,15 @@ namespace EXE5_152_KELOMPOK4
     }
     class queue
     {
-     
+        //OSAMAH = HEAD(FRONT) / AL_Mekhlafi = Tail(END)
+        Node OSAMAH, AL_Mekhlafi;
+
+        public queue()
+        {
+            OSAMAH = null;
+            AL_Mekhlafi = null;
+        }
+        
     }
     class Program
     {
