@@ -72,7 +72,21 @@ namespace EXE5_152_KELOMPOK4
             char ch;
             while (true)
             {
+                try
+                {
+                    Console.WriteLine("\n*******Menu*******");
+                    Console.WriteLine("1. Enter   Data");
+                    Console.WriteLine("2. Delete  Data");
+                    Console.WriteLine("3. Display Data");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice: ");
+                    ch = Convert.ToChar(Console.ReadLine());
 
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the value entered.");
+                }
 
 
             }
