@@ -9,7 +9,7 @@ namespace EXE5_152_KELOMPOK4
 {
     class Node
     {
-        public string name;
+        public string val;
         public Node next;
     }
     class queue
@@ -22,7 +22,13 @@ namespace EXE5_152_KELOMPOK4
             OSAMAH = null;
             AL_Mekhlafi = null;
         }
-        
+        public void Enter()
+        {
+            string data;
+            Node newnode = new Node();
+            Console.WriteLine("\nEnter data:");
+            data = Console.ReadLine();
+        }
     }
     class Program
     {
