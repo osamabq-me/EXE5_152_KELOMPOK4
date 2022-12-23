@@ -12,6 +12,10 @@ namespace EXE5_152_KELOMPOK4
         public string name;
         public Node next;
     }
+    class queue
+    {
+     
+    }
     class Program
     {
         static void Main(string[] args)
