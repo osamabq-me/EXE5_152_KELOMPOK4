@@ -39,6 +39,19 @@ namespace EXE5_152_KELOMPOK4
             AL_Mekhlafi.next = newnode;
             AL_Mekhlafi = newnode;
         }
+        public void delete()
+        {
+            if (OSAMAH == null)
+            {
+                Console.WriteLine("\nQueue is empty");
+                return;
+            }
+            Console.WriteLine("\n Data deleted is:  " + OSAMAH.val);
+            OSAMAH = OSAMAH.next;
+            if (OSAMAH == null)
+                AL_Mekhlafi = null;
+        }
+
     }
     class Program
     {
