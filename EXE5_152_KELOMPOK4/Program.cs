@@ -58,7 +58,10 @@ namespace EXE5_152_KELOMPOK4
                 Console.WriteLine("\nQueue is empty");
                 return;
             }
-            
+            Node display;
+            int count = 1;
+            for (display = OSAMAH; display != null; display = display.next)
+                Console.WriteLine("\nData number [" + (count++) + "] is :" + display.val);
         }
     }
     class Program
