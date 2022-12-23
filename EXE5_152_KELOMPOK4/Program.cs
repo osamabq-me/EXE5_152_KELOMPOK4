@@ -51,7 +51,15 @@ namespace EXE5_152_KELOMPOK4
             if (OSAMAH == null)
                 AL_Mekhlafi = null;
         }
-
+        public void display()
+        {
+            if (OSAMAH == null)
+            {
+                Console.WriteLine("\nQueue is empty");
+                return;
+            }
+            
+        }
     }
     class Program
     {
